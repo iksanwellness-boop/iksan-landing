@@ -1,4 +1,4 @@
-<!-- VERSION: iksan_folleto_v4_plataforma | última actualización: 2026-06-19 21:25 (CDMX, UTC-6 aprox.) | + botón Iniciar sesión → vhapp.iksanwellness.com | Claude-managed -->
+<!-- VERSION: iksan_folleto_v6_modulos_oficiales | última actualización: 2026-06-30 (CDMX) | nombres y precios oficiales, promo lanzamiento M2 | Claude-managed -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -139,6 +139,15 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--deep);lin
 .mod-feature:last-of-type{border-bottom:none}
 .mod-feature .ck{flex-shrink:0;font-size:11px;font-weight:700;margin-top:2px}
 .mod-users{margin-top:14px;padding:10px 12px;border-radius:10px;font-size:11.5px;font-weight:600}
+/* ── Promo box en tarjeta M2 ── */
+.mod-promo-box{margin:14px 0 6px;padding:13px 15px;border-radius:10px;background:linear-gradient(135deg,#8b1a5a12,#5a1a4a20);border:1.5px dashed #8b1a5a}
+.mod-promo-title{font-size:12px;font-weight:800;color:#8b1a5a;margin-bottom:6px}
+.mod-promo-desc{font-size:11px;color:#3d1a2e;line-height:1.5;margin-bottom:10px}
+.mod-promo-group{font-size:10px;font-weight:800;color:#8b1a5a;text-transform:uppercase;letter-spacing:.5px;margin:8px 0 3px}
+.mod-promo-item{font-size:11px;color:#2d1a2e;padding:2px 0 2px 8px;line-height:1.45}
+.mod-promo-item::before{content:"· ";color:#8b1a5a;font-weight:700}
+.mod-promo-footer{font-family:Georgia,serif;font-style:italic;font-size:10.5px;color:#8b1a5a;text-align:center;margin-top:10px;padding-top:8px;border-top:1px solid #8b1a5a33;line-height:1.4}
+
 
 /* M1 */
 .mod-m1{border-color:#1a56db22}
@@ -393,9 +402,9 @@ footer strong{color:rgba(255,255,255,.5)}
       <p class="historia-eyebrow">Nuestra historia</p>
       <h2 class="historia-title">La creamos para nosotros.<br>Ahora la compartimos contigo.</h2>
       <p class="historia-text">
-        Somos consultores BioCuántico VitalHealth desde hace <strong>mas de 4 anos</strong>. Durante ese tiempo vivimos en carne propia la misma frustracion que tu: reportes en fotos, ventas en libretas, inventario calculado a ojo y clientes que se pierden en el camino.<br><br>
-        Decidimos construir la herramienta que necesitabamos y no existia. <strong>IKSAN nacio de adentro del negocio</strong>, no de un escritorio de tecnologia. Cada funcion fue disenada porque la necesitamos nosotros primero.<br><br>
-        Hoy, despues de usarla y perfeccionarla en nuestra propia consultoria, queremos ponertela en las manos.
+        Somos consultores BioCuántico VitalHealth desde hace <strong>más de 4 años</strong>. Durante ese tiempo vivimos en carne propia la misma frustración que tú: reportes en fotos, ventas en libretas, inventario calculado a ojo y clientes que se pierden en el camino.<br><br>
+        Decidimos construir la herramienta que necesitábamos y no existía. <strong>IKSAN nació de adentro del negocio</strong>, no de un escritorio de tecnología. Cada función fue diseñada porque la necesitamos nosotros primero.<br><br>
+        Hoy, después de usarla y perfeccionarla en nuestra propia consultoría, queremos ponértela en las manos.
       </p>
     </div>
   </div>
@@ -415,7 +424,7 @@ footer strong{color:rgba(255,255,255,.5)}
       <h3>❌ Sin IKSAN</h3>
       <div class="pain-item"><div class="dot"></div><span>Escaneos guardados en fotos sin orden ni seguimiento</span></div>
       <div class="pain-item"><div class="dot"></div><span>Recomendaciones escritas a mano para cada cliente</span></div>
-      <div class="pain-item"><div class="dot"></div><span>Citas y pendientes anotados en libreta o notas del celular</span></div>
+      <div class="pain-item"><div class="dot"></div><span>Citas, consultas y pendientes anotados en libreta o en las notas del celular, sin orden ni seguimiento</span></div>
       <div class="pain-item"><div class="dot"></div><span>Inventario calculado a ojo, sin control de caducidades</span></div>
       <div class="pain-item"><div class="dot"></div><span>Sin registro de gastos ni balance real del negocio</span></div>
       <div class="pain-item"><div class="dot"></div><span>Imagen poco profesional frente al cliente</span></div>
@@ -424,7 +433,7 @@ footer strong{color:rgba(255,255,255,.5)}
       <h3>✅ Con IKSAN</h3>
       <div class="pain-item"><div class="dot"></div><span>Historial completo por cliente, con todos sus escaneos y análisis</span></div>
       <div class="pain-item"><div class="dot"></div><span>Reporte generado automáticamente con paquetes sugeridos</span></div>
-      <div class="pain-item"><div class="dot"></div><span>Agenda de citas, pendientes y derivaciones en un solo tablero</span></div>
+      <div class="pain-item"><div class="dot"></div><span>Calendario y agenda de citas, consultas y pendientes en un solo tablero</span></div>
       <div class="pain-item"><div class="dot"></div><span>Inventario por lote, caducidad y precios actualizados en tiempo real</span></div>
       <div class="pain-item"><div class="dot"></div><span>Finanzas automáticas: ventas, gastos y balance siempre al día</span></div>
       <div class="pain-item"><div class="dot"></div><span>Tu oficina virtual con tu nombre, colores y logo propios</span></div>
@@ -529,7 +538,7 @@ footer strong{color:rgba(255,255,255,.5)}
             <div class="tool-icon">🛒</div>
             <div class="tool-text">
               <div class="tool-name">Carrito de compra por cliente</div>
-              <div class="tool-micro">Agrega productos del catálogo o items manuales — precio y totales automáticos</div>
+              <div class="tool-micro">Agrega productos del catálogo o ítems manuales — precio y totales automáticos</div>
             </div>
           </div>
           <div class="tool-pill">
@@ -571,7 +580,7 @@ footer strong{color:rgba(255,255,255,.5)}
             <div class="tool-icon">📅</div>
             <div class="tool-text">
               <div class="tool-name">Agenda de citas BioCuántico</div>
-              <div class="tool-micro">Programa sesiones, recordatorio por WhatsApp al cliente antes de la cita</div>
+              <div class="tool-micro">Calendario y agenda de consultas — programa sesiones, visualiza tu semana y envía recordatorio por WhatsApp al cliente antes de la cita</div>
             </div>
           </div>
           <div class="tool-pill">
@@ -592,7 +601,7 @@ footer strong{color:rgba(255,255,255,.5)}
             <div class="tool-icon">✅</div>
             <div class="tool-text">
               <div class="tool-name">Lista de pendientes en agenda</div>
-              <div class="tool-micro">Tareas y seguimientos pendientes organizados por fecha — nunca pierdas un compromiso con un cliente</div>
+              <div class="tool-micro">Tareas y seguimientos pendientes organizados por fecha en tu agenda — nunca pierdas una consulta, un compromiso ni un cliente por contactar</div>
             </div>
           </div>
         </div>
@@ -636,7 +645,7 @@ footer strong{color:rgba(255,255,255,.5)}
           <div class="bo-feat">Estadísticas de ventas por fuente de origen</div>
           <div class="bo-feat">Balance de cuentas separadas (efectivo, transferencia, etc.)</div>
           <div class="bo-feat">Ventas en tránsito — control de pagos pendientes por cliente</div>
-          <div class="bo-feat">Provisión de gastos — genera recordatorio automático en agenda <span style="font-size:10px;background:rgba(139,26,90,.3);color:#f0a8d4;padding:1px 7px;border-radius:10px;font-weight:600;margin-left:4px">M3</span></div>
+          <div class="bo-feat">Provisión de gastos — genera recordatorio automático en tu calendario y agenda <span style="font-size:10px;background:rgba(139,26,90,.3);color:#f0a8d4;padding:1px 7px;border-radius:10px;font-weight:600;margin-left:4px">M3</span></div>
         </div>
       </div>
 
@@ -647,7 +656,7 @@ footer strong{color:rgba(255,255,255,.5)}
         <div class="bo-features">
           <div class="bo-feat">Historial de ventas con todos los datos del cliente</div>
           <div class="bo-feat">Filtros por origen, tipo y estado del pago</div>
-          <div class="bo-feat">Ticket promedio, top productos y total del periodo</div>
+          <div class="bo-feat">Ticket promedio, top productos y total del período</div>
           <div class="bo-feat">Gastos desglosados por rubro <span style="font-size:10px;background:rgba(139,26,90,.3);color:#f0a8d4;padding:1px 7px;border-radius:10px;font-weight:600;margin-left:4px">M3</span></div>
         </div>
       </div>
@@ -699,16 +708,16 @@ footer strong{color:rgba(255,255,255,.5)}
     <div class="modulos-header">
       <p class="section-eyebrow">Planes</p>
       <h2 class="section-title">Empieza donde estás,<br>crece sin límites</h2>
-      <p class="section-sub">Activa el módulo que necesitas hoy. Actualiza cuando tu negocio lo pida, sin perder nada de lo que ya tienes.</p>
+      <p class="section-sub">Activa el módulo que necesitas hoy. Actualiza cuando tu negocio lo pida, sin perder nada de lo que ya tienes. <strong>🚀 Promoción de lanzamiento:</strong> al suscribirte a M2 accedes también a funciones avanzadas de M3 para que conozcas la plataforma completa.</p>
     </div>
     <div class="modulos-grid">
 
       <!-- M1 -->
       <div class="mod-card mod-m1">
         <div class="mod-header">
-          <div class="mod-badge">M1 · Básico</div>
-          <div class="mod-name">Arrancar y vender</div>
-          <div class="mod-price"><strong>$444</strong> / mes</div>
+          <div class="mod-badge">M1 · Consultor Inteligente</div>
+          <div class="mod-name">Analiza, recomienda y vende</div>
+          <div class="mod-price"><strong>$666</strong> / mes</div>
         </div>
         <div class="mod-body">
           <div class="mod-tag">Ideal para consultores que inician</div>
@@ -727,30 +736,43 @@ footer strong{color:rgba(255,255,255,.5)}
       <!-- M2 -->
       <div class="mod-card mod-m2">
         <div class="mod-header">
-          <div class="mod-badge">M2 · Intermedio</div>
-          <div class="mod-name">Operar como empresa</div>
-          <div class="mod-price"><strong>$888</strong> / mes</div>
+          <div class="mod-badge">M2 · Oficina Virtual</div>
+          <div class="mod-name">Organiza tu consultoría como una empresa</div>
+          <div class="mod-price"><strong>$999</strong> / mes</div>
         </div>
         <div class="mod-body">
           <div class="mod-tag">Todo M1 más oficina virtual completa</div>
-          <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Todo lo del plan Básico</span></div>
-          <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Fichas técnicas completas — ingredientes, dosis y beneficios por padecimiento</span></div>
+          <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Todo lo de M1, más:</span></div>
+          <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Catálogo con fichas técnicas — dosis, ingredientes y beneficios por padecimiento</span></div>
+          <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Calendario y agenda de consultas — citas, pendientes y seguimiento por cliente</span></div>
+          <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Finanzas completas — ventas por período, gastos por rubro y balance de cuentas</span></div>
           <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Branding completo — colores y logotipo propios en tu plataforma, reportes y recibos</span></div>
-          <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Inventario por lote y caducidad — salida PEPS automática</span></div>
-          <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Agenda de citas BioCuántico con seguimiento por cliente</span></div>
           <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Derivación a externos + control de comisiones</span></div>
-          <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Finanzas completas — ventas, gastos y balance de cuentas</span></div>
           <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Recibo de compra en PDF en un clic</span></div>
           <div class="mod-feature"><span class="ck" style="color:#0d7377">✓</span><span>Control de pagos pendientes y ventas en tránsito</span></div>
           <div class="mod-users">👤 1 consultor + 👥 2 operadores configurables</div>
+
+          <!-- PROMO LANZAMIENTO -->
+          <div class="mod-promo-box">
+            <div class="mod-promo-title">🚀 Promoción de lanzamiento</div>
+            <div class="mod-promo-desc">Por tiempo limitado, al suscribirte a M2 también obtienes acceso anticipado a funciones de M3 para que conozcas la plataforma completa:</div>
+            <div class="mod-promo-group">Inventario</div>
+            <div class="mod-promo-item">Control de stock por lote con fechas de caducidad</div>
+            <div class="mod-promo-item">Salida automática PEPS (primero entra, primero sale)</div>
+            <div class="mod-promo-group">Estadísticas avanzadas</div>
+            <div class="mod-promo-item">Ventas desglosadas por tipo, origen y forma de pago</div>
+            <div class="mod-promo-item">Gastos desglosados por rubro y cuenta</div>
+            <div class="mod-promo-item">Estadísticas extendidas de clientes</div>
+            <div class="mod-promo-footer">Esto es temporal y reversible — al cerrar la promoción, estas funciones vuelven a requerir M3.</div>
+          </div>
         </div>
       </div>
 
       <!-- M3 -->
       <div class="mod-card mod-m3">
         <div class="mod-header">
-          <div class="mod-badge">M3 · Pro</div>
-          <div class="mod-name">Automatizar y escalar</div>
+          <div class="mod-badge">M3 · Negocio Automatizado</div>
+          <div class="mod-name">Automatiza y escala tu operación</div>
           <div class="mod-price"><strong>$1,444</strong> / mes</div>
         </div>
         <div class="mod-body">
